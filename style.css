@@ -284,14 +284,7 @@ img.teams-img-container {
     width: 60%;
 }
 
-.teams-text{
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-padding-left: 48px;
-padding-right: 56px;
-}
+
 .teams-primary{
     border-radius: 48px;
   background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
@@ -345,27 +338,109 @@ text-align: right;
 .container{
     padding-bottom: 5%;
 }
-.banner-footer{
-    width: 1790px;
+/* .banner-footer{
+    width: 1340px;
 height: 636px;
 /* flex-shrink: 0; */
-background: #0B0223;
-padding-top: 10%;
-}
-.footerimage img{
-    margin-top: 120;
+/* background: #0B0223;
+padding-top: 10%;} */
+
+.foo{
+   
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0B0223;;
+    height: 40vw;
+    /* width: 100vw; */
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
-.footer-frame{
-display: inline-flex;
-padding: 10px;
-align-items: flex-start;
-gap: 60px;
-color: #FFF;
 
+.header{
+    /* display: inline-flex; */
+    display: flex;
+/* padding: 10px; */
+/* align-items: flex-start; */
+gap: 20px;
+font-size: 28px;
+font-family: work sans;
+}
+.heading{
+    display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+font-size: 26px;
+gap: 20px;
+color: rgba(255, 255, 255, 0.60);
+} 
+
+.footer-content img{
+
+width: 300px;
 
 }
-.footermain{
-    padding-left: 48px;
-    /* padding-right: 56px; */
+.card img{
+    width: 50px;
 }
+.parent-card{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-left: 20%;
+}
+
+.containerr{
+    display: flex;
+}
+.link{
+    color: rgba(255, 255, 255, 0.60);
+}
+/* .teams-right{
+   padding-left: 50%;
+} */
+
+
+.teams-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* padding-left: 40%; */
+    padding-right: 25%;
+    /* padding-right: 20px; */
+    }
+   .button{
+    padding-left: 15%;
+    
+ 
+   }
+  .paragraph{
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 20%; */
+    padding-right: 50%;
+  }
+  .lastparagraph{
+    padding-right:48% ;
+    
+    color: #534C64;
+font-family: Work Sans;
+font-size: 32px;
+
+font-weight: 700;
+
+  }
+  .teams-container{
+    width: 1200px;
+height: 500px;
+flex-shrink: 0;
+  }
+  
